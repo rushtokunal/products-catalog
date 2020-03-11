@@ -39,7 +39,7 @@ def update_tasks(product_id):
         return response, 201
 
 
-@app.route('/todos/<string:product_id>/', methods=['DELETE'])
+@app.route('/products/<string:product_id>/', methods=['DELETE'])
 def delete_tasks(product_id):
     if request.method == "DELETE":
         product.delete(product_id)
