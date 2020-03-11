@@ -1,0 +1,8 @@
+{
+    "db": {  
+            "url" : "mongodb+srv://kunal:Kg265162@product-catalogue-i6zaj.gcp.mongodb.net/test?retryWrites=true&w=majority",
+            "name" :"products-db",
+            "user" :"",
+            "password" :""
+    }
+}
