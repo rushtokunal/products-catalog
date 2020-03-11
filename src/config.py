@@ -1,3 +1,3 @@
 import json
 
-config = json.load(open('db_config.json'))  #loads mongo db details from json
+config = json.load(open('src/db_config.json'))  #loads mongo db details from json

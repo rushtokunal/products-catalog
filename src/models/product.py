@@ -1,5 +1,5 @@
-from utils.validation import ValidateInp
-from utils.database import Database
+from ..utils.validation import ValidateInp
+from ..utils.database import Database
 
 
 class Product(object):

@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from models import product  # call model file
+from src.models import product  # call model file
 from flask_cors import CORS  # avoid cors errors if called from frontend
 
 app = Flask(__name__)
