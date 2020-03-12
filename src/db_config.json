@@ -1,8 +1,0 @@
-{
-    "db": {  
-            "url" : "mongodb+srv://user:*******@product-catalogue.mongodb.net/test?retryWrites=true&w=majority",
-            "name" :"products-db",
-            "user" :"",
-            "password" :""
-    }
-}
