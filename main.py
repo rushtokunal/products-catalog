@@ -9,18 +9,18 @@ product = product.Product()
 
 
 # product routes
-@app.route('/products/', methods=['GET'])
-def get_tasks():
+@app.route('/products', methods=['GET'])
+def get_all_products():
     return jsonify(product.find({})), 200
 
 
-@app.route('/products/<string:product_id>/', methods=['GET'])
-def get_task(product_id):
+@app.route('/products/<string:product_id>', methods=['GET'])
+def get_products_by_id(product_id):
     return product.find_by_id(product_id), 200
 
 
 @app.route('/products', methods=['POST'])
-def add_tasks():
+def create_products_by_id():
     if request.method == "POST":
        product_id = request.json['product_id']
        name = request.json['name']
@@ -31,7 +31,7 @@ def add_tasks():
 
 
 @app.route('/products/<string:product_id>/', methods=['PUT'])
-def update_tasks(product_id):
+def update_products_by_id(product_id):
     if request.method == "PUT":
         product_id = request.json['product_id']
         name = request.json['name']

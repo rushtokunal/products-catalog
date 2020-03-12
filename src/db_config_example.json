@@ -1,0 +1,10 @@
+{
+    "db": {  
+            "url" : "mongodb+srv://user:*******@product-catalogue.mongodb.net/test?retryWrites=true&w=majority",
+            "name" :"products-db",
+            "user" :"",
+            "password" :""
+    }
+}
+
+// replace username and passworg and put your own mongodb string, collection name should be same
